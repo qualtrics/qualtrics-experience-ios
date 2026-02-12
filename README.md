@@ -7,12 +7,16 @@ This package is Qualtrics' Experience SDK to be used by iOS application via Swif
 ### XCode installation
 
 #### 1. Navigate to `File`->`Add Packages...`
+<img src="docs/images/add_package_dependencies.png" width="400">
 
-#### 2. Search for the package repository url: `https://github.com/qualtrics/qualtrics-experience-ios` in the top right corner and click `Add Package`
+#### 2. Search for the package repository url: `https://github.com/qualtrics/qualtrics-experience-ios` in the top right corner and click `Add Package`:
+<img src="docs/images/search_sources.png" width="800">
 
-#### 3. Add package to your target
+#### 3. Add package to your target:
+<img src="docs/images/choose_package.png" width="800">
 
-#### 4. Verify that the package has been added to your Project Navigator in Xcode, under `Package Dependencies`
+#### 4. Verify that the package has been added to your Project Navigator in Xcode, under `Package Dependencies`:
+<img src="docs/images/package_dependencies.png" width="400">
 
 ### Package dependency
 
@@ -20,7 +24,7 @@ This package is Qualtrics' Experience SDK to be used by iOS application via Swif
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qualtrics/qualtrics-experience-ios.git", .upToNextMinor(from: "0.1.0-alpha"))
+    .package(url: "https://github.com/qualtrics/qualtrics-experience-ios.git", .upToNextMinor(from: "0.1.0"))
 ]
 ```
 
