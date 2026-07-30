@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "qualtrics-experience-ios",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "QualtricsExperience",
-            url: "https://s3-us-west-2.amazonaws.com/si-mobile-sdks/exp/ios/0.6.0/QualtricsExperience.zip",
-            checksum: "6a411334778c657add5427614ae086481ad16b046aa0eb8bf09a9a4dc5bccad8"
+            url: "https://s3-us-west-2.amazonaws.com/si-mobile-sdks/exp/ios/0.7.0/QualtricsExperience.zip",
+            checksum: "c0652048681a99763bba346a2652a3d73c750affa1a8474f551e6397a8f0a899"
         )
     ]
 )
